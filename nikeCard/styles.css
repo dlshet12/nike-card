@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcontainer {
+  box-shadow: 3px 3px 3px 3px rgb(188, 173, 173);
+  height: 70%;
+  width: 80%;
+  margin: 10%;
+  background-color: rgb(185, 12, 12);
+  display: flex;
+  flex-direction: row;
+}
+.leftside {
+  height: 100%;
+  width: 45%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 200px 200px 0;
+}
+.blackicons {
+  display: none;
+}
+.shoes {
+  margin-left: -10px;
+}
+.rightside {
+  height: 100%;
+  width: 40%;
+  margin-left: 10%;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+  font-size: 20px;
+}
+.search {
+  width: 100%;
+}
+h5,
+h3 {
+  margin: 0;
+  color: aliceblue;
+}
+.price {
+  margin-top: 10px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.size {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.color {
+  margin-top: 10px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.yellow {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+.black {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.blue {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.buyNow {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: space-between;
+  font-size: small;
+}
+.bag {
+  width: 20%;
+  height: 30%;
+  padding: 5%;
+}
+.button {
+  box-shadow: 3px 2px rgb(191, 184, 184);
+  border-radius: 20px;
+  padding: 4%;
+  width: 90%;
+
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .subcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+  .blackicons {
+    display: block;
+    flex-direction: row;
+    margin-left: 40%;
+    height: 50%;
+    width: 50%;
+  }
+  .leftside {
+    border-radius: 0;
+    width: 100%;
+  }
+  .search {
+    display: none;
+  }
+  .rightside {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
